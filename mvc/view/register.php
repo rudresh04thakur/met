@@ -11,6 +11,11 @@
         <link href="../assets/css/style.css" rel="stylesheet" />
     </head>
     <body>
+        <?php if(isset($_COOKIE['msg'])){ ?>
+        <div class="row alert alert-success">
+            <?php print_r($_COOKIE['msg']); ?>
+        </div>
+        <?php } ?>
         <div class="container register">
             <div class="row">
                 <div class="col-md-3 register-left">
