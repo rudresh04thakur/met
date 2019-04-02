@@ -47,8 +47,6 @@
         }
     }
     $auth->__deconstruct();
-
-
     class auth{
         public $demo  = 210;
         function __construct(){
